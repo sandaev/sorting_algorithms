@@ -14,7 +14,7 @@ void insertion_sort_list(listint_t **list)
 	listint_t *shift;
 	listint_t *temp;
 
-	if (list == NULL || *list == NULL || (*list)->next == NULL)
+	if (list == NULL || *list == NULL || (*list)->next == NULL || (*list)->next->next == NULL)
 		return;
 
 	for (shift = (*list)->next; shift != NULL; shift = temp)
