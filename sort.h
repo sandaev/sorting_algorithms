@@ -20,5 +20,6 @@ void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void swap(listint_t **list, listint_t **node_1, listint_t *node_2);
 void insertion_sort_list(listint_t **list);
-
+void swap_int(int *a, int *b);
+void selection_sort(int *array, size_t size);
 #endif /* #ifndef __SORT_H__ */
